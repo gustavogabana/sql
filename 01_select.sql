@@ -1,7 +1,7 @@
 /* seleciona tudo */
--- SELECT * FROM clientes;
+SELECT * FROM clientes;
 
 /* seleciona apenas algumas colunas */
-SELECT IdCliente, QtdePontos, DtCriacao 
+SELECT IdCliente, QtdePontos, DtCriacao, DtCriacao
 FROM clientes
 LIMIT 10;
