@@ -1,3 +1,4 @@
 SELECT *
 FROM produtos
-WHERE DescCateogriaProduto = 'rpg';
+WHERE DescCateogriaProduto = 'rpg'
+LIMIT 10;
