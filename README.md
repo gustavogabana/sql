@@ -21,3 +21,5 @@ Use aspas simples para comparar valores e aspas duplas para comparar campos. Asp
 ## LIKE
 Instrução para comparar um valor com um padrão de texto. O problema do like é que é muito custoso por conta da comparação da string. As vezes é melhor comparar igualdade.
 
+## ORDER BY
+Intrução para ordenar por alguma coluna todo o resultado retornado pela query. A posição do order by é sempre depois do where.
